@@ -54,7 +54,7 @@ End Property
 
 '''<summary> テーブル番号を指定してRangeオブジェクトを取得する
 '''<param> テーブルの行番号, テーブルの列番号
-'''<returns> 2次配列
+'''<returns> Range型
 Public Function GetCell(Row, Column) As Range
     Dim TableRow As Long
     Dim TableColumn As Long
@@ -67,7 +67,7 @@ End Function
 '''<param> なし
 '''<returns> 2次配列
 Public Function GetTable() As Variant
-    GetTable = Table_
+    GetTable = Table_()
 End Function
 
 '''<summary> 各項目がセットされたクラスを返す
