@@ -91,9 +91,9 @@ VBAで継承はできませんが、インターフェースが使えます。
 #### ソースコード
 
 
-[ITableクラス](/Table/ITable.cls)   
-[Tableクラス](/Table/Table.cls)  
-[PersonTableクラス](/Table/PersonTable.cls)  
+[ITableクラス](/ExcelVBA/Table/ITable.cls)   
+[Tableクラス](/ExcelVBA/Table/Table.cls)  
+[PersonTableクラス](/ExcelVBA/Table/PersonTable.cls)  
 
 #### 説明
 
@@ -341,7 +341,7 @@ For Each Items In MyTable
 Next
 ```
 サンプル  
-[SalesTableクラス](/Table/SalesTable.cls)  
+[SalesTableクラス](/ExcelVBA/Table/SalesTable.cls)  
 
 このようにInitメソッドに渡すクラスを変えるだけでItemsが持っているクラスを変更することができます。そして、Tableクラスに実装しているメソッドはどちらとも共通して使うことができます。  
 
