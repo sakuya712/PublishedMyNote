@@ -62,7 +62,7 @@ End Function
 '''<param> ÉeÅ[ÉuÉã
 '''<returns> Ç»Çµ
 Public Function Init(ByVal Table As Variant, ByVal Row As Long)
-        Name_ = Table(Row, 1)
-        Address_ = Table(Row, 2)
-        PhoneNumber_ = Table(Row, 3)
+    Name_ = Table(Row, 1)
+    Address_ = Table(Row, 2)
+    PhoneNumber_ = Table(Row, 3)
 End Function

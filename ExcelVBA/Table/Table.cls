@@ -97,5 +97,5 @@ End Sub
 '''<returns> ‚È‚µ
 Public Function NewEnum() As stdole.IUnknown
 Attribute NewEnum.VB_UserMemId = -4
-        Set NewEnum = Items_.[_NewEnum]
+    Set NewEnum = Items_.[_NewEnum]
 End Function

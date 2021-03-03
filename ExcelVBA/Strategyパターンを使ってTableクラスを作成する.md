@@ -156,9 +156,9 @@ End Function
 '''<param> テーブル
 '''<returns> なし
 Public Function Init(ByVal Table As Variant, ByVal Row As Long)
-        Name_ = Table(Row, 1)
-        Address_ = Table(Row, 2)
-        PhoneNumber_ = Table(Row, 3)
+    Name_ = Table(Row, 1)
+    Address_ = Table(Row, 2)
+    PhoneNumber_ = Table(Row, 3)
 End Function
 ```
 まず最初に
@@ -188,9 +188,9 @@ End Function
 '''<param> テーブル
 '''<returns> なし
 Public Function Init(ByVal Table As Variant, ByVal Row As Long)
-        Name_ = Table(Row, 1)
-        Address_ = Table(Row, 2)
-        PhoneNumber_ = Table(Row, 3)
+    Name_ = Table(Row, 1)
+    Address_ = Table(Row, 2)
+    PhoneNumber_ = Table(Row, 3)
 End Function
 ```
 最初の例で上げた仕様変更で列番号が変わった場合、ここを変更することになります。  
@@ -233,7 +233,7 @@ End Function
 '''<returns> なし
 Public Function NewEnum() As stdole.IUnknown
 Attribute NewEnum.VB_UserMemId = -4
-        Set NewEnum = Items_.[_NewEnum]
+    Set NewEnum = Items_.[_NewEnum]
 End Function
 ```
 
@@ -293,7 +293,7 @@ Collectionを使うときわざわざ`Coll.Item(1)`とせずに`Coll(1)`と取�
 '''<returns> なし
 Public Function NewEnum() As stdole.IUnknown
 Attribute NewEnum.VB_UserMemId = -4
-        Set NewEnum = Items_.[_NewEnum]
+    Set NewEnum = Items_.[_NewEnum]
 End Function
 ```
 これも本題の件と関係ありませんがあったら便利です。  
